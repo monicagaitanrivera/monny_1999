@@ -20,3 +20,7 @@ img {
     display: block;
     margin: 0 auto 0 auto;
 }
+ p.fuente-enlace {
+     font-size: 40px;
+     text-align: center;
+ } 
