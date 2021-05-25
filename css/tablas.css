@@ -18,7 +18,7 @@ th, td {
 }
 .head-codigo,.head-codigo-sub {
     background: lightseagreen;
-    color: whitesmoke;
+    color:black;
     font-weight: 900;
 }
 .head-codigo {
@@ -28,12 +28,12 @@ th, td {
 
 .head-tarifas,.head-tarifas-sub {
     background: hotpink;
-    color: whitesmoke;
+    color:black;
    font-weight: 900;
 }
 .head-caracteristicas,.head-caracteristicas-sub {
     background: limegreen;
-    color: whitesmoke;
+    color: black;
     font-weight: 900;
 }
 .head-caracteristicas-sub {
