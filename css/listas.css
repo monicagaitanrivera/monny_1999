@@ -1,6 +1,6 @@
 
 ul {
-    font-size: 1,7em;
+    font-size: 1,6em;
     text-align: right;
     background: goldenrod ;
     font-family: Verdana, sans-serif;
@@ -20,6 +20,6 @@ a {
     text-decoration: none;
 }
 a:hover {
-    font-size: 1.05em;
+    font-size: 1.04em;
 
 }
