@@ -13,7 +13,7 @@ fieldset {
   position: absolute;
   width: 5,30px;
   height: 500px;
-  top:0;
+  top:-1em;
   left: 400;
   margin:100px;
 }
@@ -246,9 +246,11 @@ form .icon{
 .submit {
   margin:2em 0;
   overflow:hidden;
+ 
 }
 .boton {
   background: rgba(107,255,3,0.3);
+ 
 }
 
 
