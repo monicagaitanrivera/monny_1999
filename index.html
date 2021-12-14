@@ -1,71 +1,101 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU-INDEX</title>
+    <link rel="stylesheet" href="icons/all.css">
     <link rel="stylesheet" href="css/style_ml.css">
     <link rel="stylesheet" href="css/tablas.css">
     <link rel="stylesheet" href="css/listas.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Rye&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap" rel="stylesheet">
-    
-    <title>NUEVA YAMAHA XTZ-150</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/fixed.js"></script>
+
 </head>
+
 <body>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="tabla.html">Tablas</a></li>
-        <li><a href="layouts.html">layouts</a></li>
-        <li><a href="menu-absoluto.html">Menu Absoluto</a></li>
-        <li><a href="menu-fixed.html">Menu Fixed</a></li>
-        <li><a href="menu-horizontal.html">Menu Horizontal</a></li>
-        <li><a href="menu-vertical.html">Menu vertical</a></li>
-        <li><a href="menu_vertical_horizontal.html">MVertical Y Horizontal</a></li>
-        <li><a href="background.html">Background-1</a></li>
-        <li><a href="background2.html">Background-2</a></li>
-        <li><a href="background3.html">Background-3</a></li>
-        <li><a href="posicionamiento.html">Posicionamiento</a></li>
-        <li><a href="menu-subitems.html">Menu Subitems</a></li>
-        <li class="menu-contactenos"><a href= contactenos.html>Contactenos</a></li>
-        <li><a href="media-query.html">Menu Querys</a></li>
-        <li><a href="menu-vertical-responsive.html">Menu Responsive</a></li>
-        <li><a href="menu_responsive-2.html">Menu Responsive-2</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="flexbox.html">Flexbox-direction</a></li>
-        <li><a href="flexbox-wrap.html">Flexbox-Wrap</a></li>
-        <li><a href="flexbox-justify.html">Flexbox-Justify</a></li>
-        <li><a href="flexbox-flow.html">Flexbox-Flow</a></li>
-        <li><a href="flex-grow.html">Flexbox-Grow</a></li>
-        <li><a href="grid.html">Grid</a></li>
-        <li><a href="grid-repeat.html">grid-repeat</a></li>
-        <li><a href="grid-posicionamiento.html">grid-posicionamiento</a></li>
-        <li><a href="grid-min-max - copia.html">grid-min-max</a></li>
-        <li><a href="grid-calendario.html">Calendario</a></li>
-        <li><a href="fixed.html">Fixed</a></li>
-        <li><a href="fuentes.html">Fuente</a></li>
-        <li><a href="listas.html">Listas</a></li>
-        <li><a href="maquetacion-grid.html">Maquetacion</a></li>
-        <li><a href="bootstrap.html">Bootstrap-mini</a></li>
-        <li><a href="bootstrap-offline.html">bootstrap-offline</a></li>
+    <label class="icono-menu" onclick="mostrarMenu()"> <i class="fas fa-bars"></i></label>
+    <nav id="menu-principal">
+        <ul class="menu">
+            <li class="submenu"><a href="#"><span class="icon-shopping-cart icono"></span>MENUS<span
+                class="icon-chevron-small-down"></span> </a>
+            <ul class="children">
+            <li><a href="index.html">index<span class="icon-dot-single"></span></a></li>
+            <li><a href="productos.html">Productos<span class="icon-dot-single"></span></a></li>
+            <li><a href="tabla.html">Tabla<span class="icon-dot-single"></span></a></li>
+            <li><a href="layouts.html">layouts<span class="icon-dot-single"></span></a></li>
+            <li><a href="menu-absoluto.html">Menu-absoluto<span class="icon-dot-single"></span></a></li>
+            <li><a href="menu-fixed.html">Menu-fixed<span class="icon-dot-single"></span></a></li>
+            <li><a href="menu-horizontal.html">Menu-horizontal<span class="icon-dot-single"></span></a></li>
+            <li><a href="menu-vertical.html">Menu-vertical<span class="icon-dot-single"></span></a></li>
+        </ul>
+
+        <li class="submenu"><a href="#"><span class="icon-shopping-cart icono"></span>FLEXBOX<span
+            class="icon-chevron-small-down"></span> </a>
+        <ul class="children">
+        <li><a href="flexbox.html">Flexbox<span class="icon-dot-single"></span></a></li>
+        <li><a href="flexbox-wrap.html">Flexbox-Wrap<span class="icon-dot-single"></span></a></li>
+        <li><a href="flexbox-flow.html">flexbox-flow<span class="icon-dot-single"></span></a></li>
+        <li><a href="flexbox-justify.html">flexbox-justify<span class="icon-dot-single"></span></a></li>
+        <li><a href="flex-grow.html">flex-grow<span class="icon-dot-single"></span></a></li>
+        
         
     </ul>
-    
-<h1 class="centrado"> NUEVA YAMAHA XTZ-150</h1>
-<img src="img/XTZ-150_600X400.jpg" alt="YAMAHA">
-<h2 class="centrado"> En Colombia, precio y caracteristicas</h2>
-<h2 class="fuente caviat">unica en su tipo con inyeccion electronica</h2>
-<p class="centrado">Ya Estan En El Mercado La Nueva XTZ 150</p>
-<p class="color-fuente">Aprovechas Nuestras<span class="fuente-crazy">promociones</span>de fin de mes</p>
-<p class="fuente-enlace"><a href="contactenos.html" target="_block"></p>
+    <li class="submenu"><a href="#"><span class="icon-shopping-cart icono"></span>BACKGROUND<span
+        class="icon-chevron-small-down"></span> </a>
+    <ul class="children">
+        <li><a href="background.html">Background-1<span class="icon-dot-single"></span></a></li>
+        <li><a href="background2.html">Background-2<span class="icon-dot-single"></span></a></li>
+        <li><a href="background3.html">Background-3<span class="icon-dot-single"></span></a></li>
 
+    
+
+</ul>
+
+            <li><a href="menu_vertical_horizontal.html"><i class="fas fa-users">vertical_horizontal</i></a></li>
+            <li><a href="posicionamiento.html"><i class="fas fa-users"></i>Posicionamiento</a></li>
+            <li><a href="menu-subitems.html"><i class="fas fa-users"></i>Menu-subitems</a></li>
+            <li class="menu-contactenos"><a href= contactenos.html>Contactenos</a></li>
+            <li><a href="media-query.html"><i class="fas fa-users"></i>media-query</a></li>
+            <li><a href="menu-vertical-responsive.html"><i class="fas fa-users"></i>vertical-responsive</a></li>
+            <li><a href="menu_responsive-2.html"><i class="fas fa-users"></i>Responsive-2</a></li>
+            <li><a href="login.html"><i class="fas fa-users"></i>Login</a></li>
+            <li><a href="grid.html"><i class="fas fa-users"></i>Grid</a></li>
+            <li><a href="grid-repeat.html">grid-repeat</a></li>
+            <li><a href="grid-posicionamiento.html">grid-posicionamiento</a></li>
+            <li><a href="grid-min-max - copia.html">grid-min-max</a></li>
+            <li><a href="grid-calendario.html">Calendario</a></li>
+            <li><a href="fixed.html">Fixed</a></li>
+            <li><a href="fuentes.html">Fuente</a></li>
+            <li><a href="listas.html">Listas</a></li>
+            <li><a href="maquetacion-grid.html">Maquetacion</a></li>
+            <li><a href="bootstrap.html">Bootstrap-mini</a></li>
+            <li><a href="bootstrap-offline.html">bootstrap-offline</a></li>
+             </ul>
+
+
+    </nav>
+        <div class="main-content">
+            <section>
+              <cof-fine1></cof-fine1>
+            </background>
+            <h1 class="centrado">  NUEVA YAMAHA XTZ-150 </h1>
+            <img class="centrado" src="img/XTZ-150_600X400.jpg">
+            <h3 class="centrado">En Colombia, precio y caracteristicas</h3>
+            <h2 class="centrado">unica en su tipo con inyeccion electronica</h2>
+            <p class="centrado">Ya Estan En El Mercado La Nueva XTZ 150</p>
+            <p class="color-fuente">Aprovechas Nuestras<span class="fuente-crazy">promociones</span>de fin de mes</p>
+            <p class="fuente-enlace"><a href="contactenos.html" target="_block"></p>
+         
+            
+        
+            
+            </section>
+
+        </div>
+   
 </body>
 </html>
