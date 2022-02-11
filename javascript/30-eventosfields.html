@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="css/30-eventosfields.css">
 </head>
 <body>
-    <input type="text" onfocus="this.style.backgroundColor='gainsboro' " 
-        onblur="this.style.backgroundColor='white'" >
+    <div>
+        <form onsubmit="validarInfo('numeroDocumento');">
+            <label>Ingrese su nombre completo</label><br><br>
+            <input type="text" id="numeroDocumento" onfocus="this.style.backgroundColor='gainsboro' " 
+        onblur="this.style.backgroundColor='white'" ><br><br>
+        <input class="style-buton" type="submit" value="Enviar">
+    </form>
+</div>
 </body>
 </html>
