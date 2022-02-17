@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+form {
+    width: 50%;
+    margin: 0 auto 0 auto; 
+    
+}
+fieldset {
+    border-radius: 7px;
+    
+}
+.fuente-enlace {
+    margin: 15px;
+}

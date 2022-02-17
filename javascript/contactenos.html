@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactenos</title>
+    <link rel="stylesheet" href="css/contactenos.css">
+    <link rel="stylesheet" href="css/lista.css">
+    <script src="js/30.js""></script>
+  
+</head>
+<body>
+    <ul>
+        <li>Inicio</li>
+        <li>Productos</li>
+        <li><a href="tabla.html">Tablas</a></li>
+        <li><a href="layouts.html">layouts</a></li>
+        <li class="menu-contactenos"><a href= contactenos.html>contactenos</a></li>
+    </ul>
+
+    <h1>contactenos</h1>
+   <!--  <form action="registrar-info.php" method="POST"> -->
+    <form onsubmit="validarInfo('numeroDocumento');">
+    <fieldset>
+    <legend>ingrese la informacion</legend>
+    <p class="fuente-enlace"><font-size:40px</p>
+    ingrese su nombre<br>
+    <input id="numeroDocumento" onfocus="this.style.backgroundColor='gainsboro' " 
+    onblur="this.style.backgroundColor='white'" type="text" name="nombres"placeholder="ingrese su nombre"><br><br>
+    ingrese su apellidos<br>
+    <input id="numeroDocumento" onfocus="this.style.backgroundColor='gainsboro' " 
+    onblur="this.style.backgroundColor='white'"  type="text" name="apellidos"><br><br>
+    ingrese su consulta, peticion, queja o reclamo<br>
+    <textarea id="numeroDocumento" onfocus="this.style.backgroundColor='gainsboro' " 
+    onblur="this.style.backgroundColor='white'" name="pregunta" cols="60" rows="5"></textarea><br><br>
+    sexo<br>
+    <input type="radio" name="genero" value="Femenino">femenino<br>
+    <input type="radio" name="genero" value="Masculino">masculino<br>
+    <input type="radio" name="genero" value="Indeterminado">indeterminado<br><br>
+    tipo de video juegos de interes<br>
+    <input type="checkbox" name="tipos-video_juegos" value="accion">accion<br>
+    <input type="checkbox" name="tipos-video_juegos" value="arcade">arcade<br>
+    <input type="checkbox" name="tipos-video_juegos" value="deportivo">deportivo<br>
+    <input type="checkbox" name="tipos-video_juegos" value="estrategia">estrategia<br>
+    <input type="checkbox" name="tipos-video_juegos" value="simulacion">simulacion<br>
+    <input type="checkbox" name="tipos-video_juegos" value="juegos de mesa">juegos de mesa<br>
+    <input type="checkbox" name="tipos-video_juegos" value="juegos musicales">juegos musicales<br><br>
+    ciudad de residencia<br>
+    <select name="ciudad">
+        <option value="Neiva">Neiva</option>
+        <option value="Pitalito">Pitalito</option>
+        <option value="Santa Maria">Santa Maria</option>
+        <option value="Palestina">Palestina</option>
+        <option value="Palermo">Palermo</option>
+        <option value="Aipe">Aipe</option>
+        <option value="San Agustin">San Agustin</option>
+        <option value="Colombia">Colombia</option>
+        </select><br><br>
+    <input type="submit" value="Enviar">
+     </fieldset>
+    </form>
+</body>
+</html>
