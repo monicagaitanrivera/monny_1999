@@ -1,15 +1,24 @@
 "use strict"
 
-function validarInfo(numeroDocumento) {
-    let numDocumento = document.getElementById(numeroDocumento).value ;
+function validar() {
+    let nombreUsuario = document.getElementById("nombres").value ;
 
-    if (numDocumento === "") {
-        alert ("Por favor ingrese los  datos completos");
+    if ( nombreUsuario === "") {
+        alert ("Por favor ingrese el nombre del usuario");
     }
-            else {
-                alert ("La informacion ha sido enviada con exito")
-            }
-        }
-        
-       
+    
+        let apellidousuario = document.getElementById("apellidos").value ;
+    
+    if (apellidousuario  === "") {
+        alert ("Por favor ingrese el apellido  del usuario");
+    }
+
+    let descripcionusuario = document.getElementById("descripcion").value ;
+    
+    if (descripcionusuario  === "") {
+        alert ("Por favor ingrese la consulta  del usuario");
+    }else{
+        alert ("los datos se ingreso con exito");
+    }
+    }
 

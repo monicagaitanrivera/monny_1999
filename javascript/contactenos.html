@@ -11,29 +11,19 @@
   
 </head>
 <body>
-    <ul>
-        <li>Inicio</li>
-        <li>Productos</li>
-        <li><a href="tabla.html">Tablas</a></li>
-        <li><a href="layouts.html">layouts</a></li>
-        <li class="menu-contactenos"><a href= contactenos.html>contactenos</a></li>
-    </ul>
+    <fieldset class="from">
 
+  
     <h1>contactenos</h1>
-   <!--  <form action="registrar-info.php" method="POST"> -->
-    <form onsubmit="validarInfo('numeroDocumento');">
-    <fieldset>
+   
     <legend>ingrese la informacion</legend>
     <p class="fuente-enlace"><font-size:40px</p>
     ingrese su nombre<br>
-    <input id="numeroDocumento" onfocus="this.style.backgroundColor='gainsboro' " 
-    onblur="this.style.backgroundColor='white'" type="text" name="nombres"placeholder="ingrese su nombre"><br><br>
+    <input id="nombres"  type="text" name="nombres"placeholder="ingrese su nombre"><br><br>
     ingrese su apellidos<br>
-    <input id="numeroDocumento" onfocus="this.style.backgroundColor='gainsboro' " 
-    onblur="this.style.backgroundColor='white'"  type="text" name="apellidos"><br><br>
+    <input id="apellidos"  type="text" name="apellidos"><br><br>
     ingrese su consulta, peticion, queja o reclamo<br>
-    <textarea id="numeroDocumento" onfocus="this.style.backgroundColor='gainsboro' " 
-    onblur="this.style.backgroundColor='white'" name="pregunta" cols="60" rows="5"></textarea><br><br>
+    <textarea id="descripcion" name="descripcion" cols="60" rows="5"></textarea><br><br>
     sexo<br>
     <input type="radio" name="genero" value="Femenino">femenino<br>
     <input type="radio" name="genero" value="Masculino">masculino<br>
@@ -57,8 +47,8 @@
         <option value="San Agustin">San Agustin</option>
         <option value="Colombia">Colombia</option>
         </select><br><br>
-    <input type="submit" value="Enviar">
-     </fieldset>
-    </form>
+    <input type="submit" value="Enviar" onclick=validar();>
+   
+</fieldset>
 </body>
 </html>
