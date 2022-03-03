@@ -1,4 +1,4 @@
-let valorUnico = 112000;
+let valorUnico = 10000;
 
 valorIndividual();
 infoCantidades();
