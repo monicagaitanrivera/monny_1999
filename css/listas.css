@@ -42,7 +42,7 @@ nav{
     
 }
 .menu a{
-    text-decoration: none;
+    text-decoration: none; /* quitar linea */
     color: black;
     display: block;
     padding-left: 1.5em;
