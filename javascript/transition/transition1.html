@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 238, 255);
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h1>La propiedad de transición</h1>
+
+<p>Pase el cursor sobre el elemento div a continuación para ver el efecto de transición:</p>
+<div></div>
+
+</body>
+</html> 
+<!--  -->
+
+
+</body>
+</html>
+<!--  -->
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: rgb(204, 0, 255);
+  transition: width 2s;
+}
+
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+div:hover {
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h1>La propiedad de la función de tiempo de transición</h1>
+
+<p>
+    Pase el cursor sobre los elementos div a continuación para ver las diferentes curvas de velocidad:</p>
+
+<div id="div1">linear</div><br>
+<div id="div2">ease</div><br>
+<div id="div3">ease-in</div><br>
+<div id="div4">ease-out</div><br>
+<div id="div5">ease-in-out</div><br>
+
+</body>
+</html>
+<!--  -->
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.metodo {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: translate(50px,100px);
+}
+</style>
+</head>
+<body>
+
+<h1>Transforms El método traducir()</h1>
+<p>
+    El método translate() mueve un elemento desde su posición actual:</p>
+
+<div class="metodo">
+    Este elemento div se mueve 50 píxeles a la derecha y 100 píxeles hacia abajo desde su posición actual.
+</div>
+
+</body>
+</html>
+<!--  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.mot {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+#my {
+  transform: rotate(20deg);
+}
+</style>
+</head>
+<body>
+
+<br<br><br><br><br><br><br><br><h1>El método rotar()</h1>
+
+<p>El método de rotación () gira un elemento en sentido horario o antihorario.</p>
+
+<div>
+    Este es un elemento div normal.
+</div>
+
+<div id="my">
+    Este elemento div se gira en el sentido de las agujas del reloj 20 grados.
+</div>
+
+</body>
+</html>
+
+

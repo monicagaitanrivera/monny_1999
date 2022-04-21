@@ -1,0 +1,30 @@
+.contenedor-azul{
+  /*   width: 200px;
+    height: 200px;
+    background-color: steelblue;   */
+    color: black;
+   
+}
+.contenedor-golden{
+    width: 100px;
+   /*  height: 200px;
+    background-color: goldenrod; */
+    color: black;
+    margin-bottom: 25px;
+    margin-left: 250px;
+    
+}
+.contenedor-visible {
+    display: block;
+}
+.contenedor-oculto{
+    display: none;
+}
+#cerrarContent1{
+    display: block;
+    text-align: right;
+}
+.put{
+    margin-left: 90px;
+width: 600px;
+}
