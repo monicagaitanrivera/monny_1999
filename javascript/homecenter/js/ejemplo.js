@@ -1,26 +1,35 @@
-"use strict"
+let btnAbrirPopup = document.getElementById("btn-abrir-popup");
+let overlay = document.getElementById("overlay");
+let popup = document.getElementById("popup");
+let btnCerrarPopUp = document.getElementById("btn-cerrar-popup");
 
+const lupa = document.getElementById("idLupa");
+lupa.addEventListener("click", abrirBusqueda);
 
-let content1 = document.getElementById("divContent1");
-let content2 = document.getElementById("divContent2");
+const lblClose = document.getElementById("idCerrar");
+lblClose.addEventListener("click", cerrarBusqueda);
 
-
-let lblcerrarContent1 = document.getElementById("cerrarContent1");
-let lblcerrarContent2 = document.getElementById("cerrarContent2");
-
-lblcerrarContent1.addEventListener("click", mostrarContenedor2);
-lblcerrarContent2.addEventListener("click", mostrarContenedor1);
-
-function mostrarContenedor1() {
-    content1.classList.add("contenedor-visible");
-    content1.classList.remove("contenedor-oculto");
-    content2.classList.add("contenedor-oculto");
-    content2.classList.remove("contenedor-visible");
+function abrirBusqueda() {
+    let removeEncabezado = document.getElementById("idHeader");
+    removeEncabezado.classList.add("headerInvisible");
+    let nuevoHeader = document.getElementById("header2");
+    nuevoHeader.classList.remove("header2Invisible");
+    nuevoHeader.classList.add("header2Visible");
 }
-
-function mostrarContenedor2() {
-    content2.classList.add("contenedor-visible");
-    content2.classList.remove("contenedor-oculto");
-    content1.classList.add("contenedor-oculto");
-    content1.classList.remove("contenedor-visible");
+function cerrarBusqueda() {
+     let removerHeader2 = document.getElementById("header2");
+    removerHeader2.classList.remove("header2Visible");
+    removerHeader2.classList.add("header2Invisible");
+    let addHeader1 = document.getElementById("idHeader");
+    addHeader1.classList.remove("headerInvisible");
+}
+function openPopup() {
+    let popup = document.getElementById("popup");
+    popup.classList.add("open-popup");
+    popup.classList.remove("popup");
+}
+function cerrarPopup() {
+    let popup = document.getElementById("popup");
+    popup.classList.add("popup");
+    popup.classList.remove("open-popup");
 }

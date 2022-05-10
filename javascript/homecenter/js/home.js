@@ -1,4 +1,4 @@
- let btnAbrirPopup = document.getElementById("btn-abrir-popup");
+let btnAbrirPopup = document.getElementById("btn-abrir-popup");
 let overlay = document.getElementById("overlay");
 let popup = document.getElementById("popup");
 let btnCerrarPopUp = document.getElementById("btn-cerrar-popup");
@@ -10,18 +10,18 @@ lupa.addEventListener("click", miFunction);
 
 
 function miFunction() {
-    document.getElementById("idHeader").innerHTML = "";
+    document.getElementById("header1").innerHTML = "";
     llamarNuevaVentana();
 }
 
 function llamarNuevaVentana() {
     let contenedorNuevo = document.createElement("div");
-    let contenedorOld = document.getElementById("idHeader");
+    let contenedorOld = document.getElementById("header1");
     contenedorOld.appendChild(contenedorNuevo);
     contenedorNuevo.setAttribute("class", "contenedor-nuevo");
 
     let iconoLupa = document.createElement("img");
-    let contenedor = document.getElementById("idHeader");
+    let contenedor = document.getElementById("header1");
     contenedor.appendChild(iconoLupa);
     iconoLupa.setAttribute("src", "img/lupa.png");
     iconoLupa.setAttribute("class", "lupa-nueva");
